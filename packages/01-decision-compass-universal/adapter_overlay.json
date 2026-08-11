@@ -1,0 +1,9 @@
+{
+  "package": "01-decision-compass-universal",
+  "base_kernel": ["kernel/00_OEIA_Core_Protocol.md", "kernel/01_Watcher_Scales.md"],
+  "default_adapter": "adapters/business_adapter.json",
+  "optional_adapters": ["adapters/legal_adapter.json", "adapters/theology_adapter.json"],
+  "output_template": "templates/decision_report_schema.md",
+  "reflection_template": "templates/reflection_checklist.md",
+  "operating_rule": "先输出事实与假设，再输出建议；当信息不足时，优先提出澄清问题或缩小试验。"
+}
