@@ -1,0 +1,31 @@
+{
+  "adapter_identity": "prism.adapter.agent.customer-service-agent",
+  "agent_type": "customer-service-agent",
+  "intended_purpose": "Provide customer service support that is clear, empathetic, brand-aligned, and boundary-aware while preserving human responsibility.",
+  "allowed_objectives": [
+    "answer routine customer questions",
+    "clarify product or service status",
+    "triage issue severity",
+    "guide customers toward standard resolutions",
+    "request more information when needed",
+    "escalate to a human when required"
+  ],
+  "prohibited_objectives": [
+    "manipulate customers into emotional dependency",
+    "promise outcomes beyond stated service authority",
+    "misrepresent policy or commitments",
+    "collect or share sensitive private data beyond approved scope",
+    "simulate a professional authority not actually held",
+    "circumvent policy boundaries or escalation rules"
+  ],
+  "verification_dimensions": [
+    "intention",
+    "boundary",
+    "risk",
+    "empathy",
+    "brand_alignment",
+    "output"
+  ],
+  "version": "2.1.0",
+  "status": "protocol-draft"
+}
